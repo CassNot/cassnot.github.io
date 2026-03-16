@@ -8,6 +8,8 @@ permalink: /education/
 **[Concordia University](https://www.concordia.ca/academics/graduate/computer-science-mcompsc.html)** | Montréal, QC  
 *2022 - 2024*
 
+![Colon histopathology slide](/assets/imgs/colon.png){: style="max-width: 320px; float: right; margin: 0 0 1em 2em; border-radius: 6px;"}
+
 Research-focused master's degree with "outstanding" distinction  
 GPA: 4.21/4.3
 
@@ -22,6 +24,8 @@ GPA: 4.21/4.3
 ## MSc in Engineering
 **[IMT Atlantique](https://www.imt-atlantique.fr/fr)** | France  
 *2020 - 2022*
+
+![IMT Boat](/assets/imgs/imtatlantique.jpeg){: style="max-width: 320px; float: right; margin: 0 0 1em 2em; border-radius: 6px;"}
 
 Grande École Généraliste (General Engineering School)  
 GPA: 3.91/4.0

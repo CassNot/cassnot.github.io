@@ -9,7 +9,7 @@ permalink: /experience/
 *November 2024 - Present*
 
 - First employee of the Canadian subsidiary: structuring role in launching R&D activities in Quebec, technical leadership, coordination of scientific priorities, and establishment of development processes.
-- Scientific and technical lead of [MerLin](https://github.com/merlinquantum/merlin), an open-source photonic quantum machine learning framework: software architecture definition, quality standards, testing strategies, and product roadmap; delivered three major releases.
+- Developper and technical lead of [MerLin](https://github.com/merlinquantum/merlin), an open-source photonic quantum machine learning framework: software architecture definition, quality standards, testing strategies, and product roadmap; delivered three major releases.
 - Design, development, and validation of hybrid classical-quantum machine learning models, including implementation of state-of-the-art photonic methods published as open-source.
 - Direction and contribution to quantum machine learning research projects: methodology definition, experimental analysis, results validation, and scientific writing, including [*MerLin: A Discovery Engine for Photonic and Hybrid Quantum Machine Learning*](https://arxiv.org/abs/2602.11092) (submitted to 2026 IEEE World Congress on Computational Intelligence).
 - Contributed to the development of a hybrid CycleGAN model, winner of the [international Airbus–BMW Quantum Computing Challenge](https://www.quandela.com/about-us/newsroom/quandela-wins-the-airbus-bmw-quantum-computing-challenge-awarded-at-q2b-silicon-valley-recognizing-the-development-of-quantum-technologies-that-address-major-challenges-in-aviation-and-automotive-ind/).
@@ -32,6 +32,8 @@ permalink: /experience/
 **[Thales DMS France](https://www.thalesgroup.com/fr)** | Brest, France  
 *April 2022 - July 2022*
 
+![EEG](/assets/imgs/eeg.jpeg){: style="max-width: 320px; float: right; margin: 0 0 1em 2em; border-radius: 6px;"}
+
 - Design and implementation of an experiment to validate the use of Error Potentials: development of a brain-computer interface, experimental setup, results analysis, and comprehensive report writing
 
 ---
@@ -45,7 +47,7 @@ permalink: /experience/
 ---
 
 ## Product Intern
-**[Cardiologs](https://login.app.cardiologs.com/)** | Paris, France  
+**[Cardiologs](https://www.usa.philips.com/healthcare/technology/ai-cardiology-solutions)** | Paris, France  
 *June 2021 - August 2021*
 
 - Conducted an audit of the existing onboarding journey for users (cardiologists) on ECG and Holter diagnostic assistance software

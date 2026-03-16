@@ -25,6 +25,12 @@ plugins:
 
 minima:
   hide_site_feed_link: true
+  nav_pages:
+    - experience.md
+    - education.md
+    - publications.md
+    - talks.md
+    - about.md
 
 # Uncomment the following setting if you wish to disable deprecation warnings
 #   from newer versions of sass converter. Adapt as required.
