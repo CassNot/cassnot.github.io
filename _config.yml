@@ -23,6 +23,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+minima:
+  hide_site_feed_link: true
+
 # Uncomment the following setting if you wish to disable deprecation warnings
 #   from newer versions of sass converter. Adapt as required.
 # sass:

@@ -9,7 +9,8 @@ permalink: /publications/
 **A Novel Approach for Enhanced Classification of Histopathology Slides using an Optimized Barlow Twins**  
 *C. Notton et al.*  
 **Medical Image Analysis**  
-*Accepted February 17, 2026*
+*Accepted February 17, 2026*  
+[View on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1361841526000733)
 
 ---
 
@@ -17,7 +18,8 @@ permalink: /publications/
 *Hosseini, M. S. et al.*  
 **Journal of Pathology Informatics**  
 *2024*  
-Contributing author
+Contributing author  
+[View on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2153353923001712)
 
 ---
 
