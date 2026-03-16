@@ -94,16 +94,27 @@
 
 .exp-card {
   display: block;
+  position: relative;
   padding: 1.2rem 1.3rem 1.3rem;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
-  text-decoration: none;
   transition: box-shadow 0.2s, transform 0.2s;
 
   &:hover {
     box-shadow: 0 6px 20px rgba(0,0,0,0.12);
     transform: translateY(-4px);
-    text-decoration: none;
+  }
+}
+
+.exp-card-link {
+  text-decoration: none;
+
+  // stretched link: the ::after covers the whole card
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
   }
 }
 
