@@ -1,2 +1,82 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.profile-header {
+  text-align: center;
+  margin: 2rem 0 1.5rem;
+
+  h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0.3rem;
+  }
+}
+
+.profile-tagline {
+  font-size: 1.1rem;
+  opacity: 0.75;
+  margin: 0.2rem 0;
+}
+
+.profile-location {
+  font-size: 0.95rem;
+  opacity: 0.6;
+  margin: 0.2rem 0;
+}
+
+.profile-links {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+
+  a {
+    margin: 0 0.3rem;
+  }
+}
+
+.profile-bio {
+  max-width: 680px;
+  margin: 1.5rem auto 2rem;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.section-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.section-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.4rem 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    transform: translateY(-3px);
+    text-decoration: none;
+  }
+
+  .card-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-title {
+    font-weight: bold;
+    font-size: 1.05rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .card-desc {
+    font-size: 0.85rem;
+    opacity: 0.65;
+  }
+}
