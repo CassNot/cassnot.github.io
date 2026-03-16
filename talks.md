@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talks & Presentations
+title: 🎤 Talks & Presentations
 permalink: /talks/
 ---
 
