@@ -1,6 +1,224 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
+// ── Home page ──────────────────────────────────────────────────────────────
+
+.profile-header {
+  text-align: center;
+  margin: 2rem 0 1.5rem;
+
+  h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0.3rem;
+  }
+}
+
+.profile-tagline {
+  font-size: 1.1rem;
+  opacity: 0.75;
+  margin: 0.2rem 0;
+}
+
+.profile-location {
+  font-size: 0.95rem;
+  opacity: 0.6;
+  margin: 0.2rem 0;
+}
+
+.profile-links {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+
+  a {
+    margin: 0 0.3rem;
+  }
+}
+
+.profile-bio {
+  max-width: 680px;
+  margin: 1.5rem auto 2rem;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.section-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.section-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.4rem 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    transform: translateY(-3px);
+    text-decoration: none;
+  }
+
+  .card-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-title {
+    font-weight: bold;
+    font-size: 1.05rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .card-desc {
+    font-size: 0.85rem;
+    opacity: 0.65;
+  }
+}
+
+// ── Experience gallery ──────────────────────────────────────────────────────
+
+.exp-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.4rem;
+  margin-top: 1.5rem;
+}
+
+.exp-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  &:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    transform: translateY(-4px);
+    text-decoration: none;
+  }
+}
+
+.exp-card-img {
+  width: 100%;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &--dark {
+    background-color: #000;
+    background-size: contain;
+  }
+}
+
+.exp-card-body {
+  padding: 1rem 1.1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.exp-card-dates {
+  font-size: 0.8rem;
+  opacity: 0.55;
+  margin: 0 0 0.2rem;
+}
+
+.exp-card-title {
+  font-size: 1.05rem;
+  font-weight: bold;
+  margin: 0 0 0.2rem;
+}
+
+.exp-card-company {
+  font-size: 0.88rem;
+  opacity: 0.7;
+  margin: 0 0 0.7rem;
+}
+
+.exp-card-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.8rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  flex: 1;
+
+  li {
+    padding-left: 1em;
+    position: relative;
+    margin-bottom: 0.3rem;
+
+    &::before {
+      content: "–";
+      position: absolute;
+      left: 0;
+    }
+  }
+}
+
+.exp-card-more {
+  font-size: 0.85rem;
+  font-weight: bold;
+  opacity: 0.7;
+  margin-top: auto;
+}
+
+// ── Experience detail page ──────────────────────────────────────────────────
+
+.exp-detail-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.exp-detail-img {
+  width: 160px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.exp-detail-meta {
+  h1 { margin: 0 0 0.3rem; font-size: 1.7rem; }
+}
+
+.exp-company {
+  font-size: 1rem;
+  margin: 0.1rem 0;
+}
+
+.exp-dates {
+  font-size: 0.9rem;
+  opacity: 0.6;
+  margin: 0.1rem 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+
+  &:hover { opacity: 1; }
+}
+
 .profile-header {
   text-align: center;
   margin: 2rem 0 1.5rem;

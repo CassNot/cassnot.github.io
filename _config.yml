@@ -23,6 +23,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+collections:
+  experiences:
+    output: true
+    permalink: /experience/:name/
+
 minima:
   hide_site_feed_link: true
   nav_pages:

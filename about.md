@@ -4,15 +4,16 @@ title: 👤 About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm **Cassandre Notton** — data scientist, quantum ML researcher, and occasional trumpet player based in Montréal.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I work at [Quandela](https://www.quandela.com) where I lead the development of [MerLin](https://github.com/merlinquantum/merlin), an open-source framework for photonic quantum machine learning. My research sits at the intersection of machine learning, quantum computing, and medical imaging.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Feel free to reach out at [cassandre@notton.fr](mailto:cassandre@notton.fr) or connect on [LinkedIn](https://www.linkedin.com/in/cassandre-notton-69ba6a131/).
 
+---
 
-[jekyll-organization]: https://github.com/jekyll
+## This site
+
+Built with [Jekyll](https://jekyllrb.com) and the [Minima](https://github.com/jekyll/minima) theme.
+
+The layout, sections, and styling were vibe-coded with the help of **Claude Sonnet 4.6** ✨ !
