@@ -25,6 +25,13 @@ Contributing author
 
 ---
 
+**MerLin: A Discovery Engine for Photonic and Hybrid Quantum Machine Learning**  
+*C. Notton et al.*  
+*Accepted to: 2026 IEEE World Congress on Computational Intelligence - ICJNN - Quantum Machine Learning and Applications*  
+[View on arXiv](https://arxiv.org/abs/2602.11092)
+
+---
+
 ## Preprints & Submitted Papers
 
 **Establishing Baselines for Photonic Quantum Machine Learning: Insights from an Open, Collaborative Initiative**  
@@ -32,13 +39,6 @@ Contributing author
 **arXiv Preprint**  
 *October 2025*  
 [View on arXiv](https://arxiv.org/abs/2510.25839v1)
-
----
-
-**MerLin: A Discovery Engine for Photonic and Hybrid Quantum Machine Learning**  
-*C. Notton et al.*  
-*Submitted to: 2026 IEEE World Congress on Computational Intelligence*  
-[View on arXiv](https://arxiv.org/abs/2602.11092)
 
 ---
 

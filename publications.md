@@ -6,7 +6,7 @@ lang: fr
 ref: publications
 ---
 
-## Articles dans des revues à comité de lecture
+## Articles revus par les paires
 
 **A Novel Approach for Enhanced Classification of Histopathology Slides using an Optimized Barlow Twins**  
 *C. Notton et al.*  
@@ -25,6 +25,13 @@ Co-auteure
 
 ---
 
+**MerLin: A Discovery Engine for Photonic and Hybrid Quantum Machine Learning**  
+*C. Notton et al.*  
+*Accepté au : 2026 IEEE World Congress on Computational Intelligence/ ICJNN Quantum Machine Learning and Applications*  
+[Voir sur arXiv](https://arxiv.org/abs/2602.11092)
+
+---
+
 ## Prépublications & articles soumis
 
 **Establishing Baselines for Photonic Quantum Machine Learning: Insights from an Open, Collaborative Initiative**  
@@ -32,13 +39,6 @@ Co-auteure
 **Prépublication arXiv**  
 *Octobre 2025*  
 [Voir sur arXiv](https://arxiv.org/abs/2510.25839v1)
-
----
-
-**MerLin: A Discovery Engine for Photonic and Hybrid Quantum Machine Learning**  
-*C. Notton et al.*  
-*Soumis au : 2026 IEEE World Congress on Computational Intelligence*  
-[Voir sur arXiv](https://arxiv.org/abs/2602.11092)
 
 ---
 
