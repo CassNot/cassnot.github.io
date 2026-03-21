@@ -6,7 +6,7 @@ company_url: https://www.quandela.com
 location: Montréal, QC
 start_date: November 2024
 end_date: Present
-image: /assets/imgs/quandela-logo.png
+image: /assets/imgs/Logo-Quandela-2025.webp
 image_dark_bg: true
 order: 1
 highlights:
