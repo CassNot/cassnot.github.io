@@ -7,7 +7,7 @@ location: Plouzané, France
 start_date: September 2020
 end_date: July 2022
 image: /assets/imgs/trompette.png
-order: 5
+order: 6
 highlights:
   - "Taught trumpet to students in first and second cycle levels"
 ---
