@@ -2,7 +2,11 @@
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
+    {%- if page.lang == 'en' -%}
+      {%- assign page_paths = site.minima.nav_pages_en -%}
+    {%- else -%}
+      {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
+    {%- endif -%}
     {%- assign page_titles = site.pages | map: 'title' | compact %}
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
 
@@ -14,6 +18,26 @@
         </label>
 
         {% include nav-items.html paths = page_paths %}
+
+        <span class="lang-switcher">
+          {%- if page.collection == 'experiences' -%}
+            <span class="lang-current">FR</span>&thinsp;|&thinsp;<a href="{{ '/en' | append: page.url | relative_url }}" class="lang-other">EN</a>
+          {%- elsif page.collection == 'experiences_en' -%}
+            <a href="{{ page.url | remove_first: '/en' | relative_url }}" class="lang-other">FR</a>&thinsp;|&thinsp;<span class="lang-current">EN</span>
+          {%- elsif page.ref -%}
+            {%- if page.lang == 'en' -%}
+              {%- assign fr_page = site.pages | where: "ref", page.ref | where: "lang", "fr" | first -%}
+              {%- if fr_page -%}
+                <a href="{{ fr_page.url | relative_url }}" class="lang-other">FR</a>&thinsp;|&thinsp;<span class="lang-current">EN</span>
+              {%- endif -%}
+            {%- else -%}
+              {%- assign en_page = site.pages | where: "ref", page.ref | where: "lang", "en" | first -%}
+              {%- if en_page -%}
+                <span class="lang-current">FR</span>&thinsp;|&thinsp;<a href="{{ en_page.url | relative_url }}" class="lang-other">EN</a>
+              {%- endif -%}
+            {%- endif -%}
+          {%- endif -%}
+        </span>
       </nav>
     {%- endunless %}
   </div>
