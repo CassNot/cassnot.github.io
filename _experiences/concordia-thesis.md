@@ -1,52 +1,52 @@
 ---
 layout: experience
-title: M.Sc. Thesis Researcher
-company: Concordia University — Atlas Analytics Lab
+title: Etudiante assistante de recherche M.Sc. (Thèse)
+company: Université Concordia — Atlas Analytics Lab
 company_url: https://atlasanalyticslab.ai
 location: Montréal, QC
-start_date: May 2023
-end_date: August 2024
+start_date: Mai 2023
+end_date: Août 2024
 image: /assets/imgs/colon.png
 order: 2
 highlights:
-  - "Proposed a new self-supervised method for colorectal polyp screening — thesis validated with <strong>outstanding</strong> mention"
-  - "Dataset of 1,037 Whole Slide Images from Kingston General Hospital, partially annotated by a pathologist"
-  - "Funded by the <em>Fonds de Recherche du Québec en Nature &amp; Technologies</em>"
+  - "Proposition d'une nouvelle méthode auto-supervisée pour le dépistage des polypes colorectaux — thèse validée avec la mention <strong>«outstanding»</strong>"
+  - "Jeu de données de 1 037 images entières de lames (WSI) du Kingston General Hospital, partiellement annotées par un pathologiste"
+  - "Financement du <em>Fonds de Recherche du Québec en Nature &amp; Technologies</em>"
 ---
 
-Research conducted at the [Atlas Analytics Lab](https://atlasanalyticslab.ai) under the supervision of [Dr. Mahdi S. Hosseini](https://scholar.google.com/citations?user=SO-FFrgAAAAJ), as part of my M.Sc. in Computer Science at Concordia University.
+Recherche menée à l'[Atlas Analytics Lab](https://atlasanalyticslab.ai) sous la direction du [Dr Mahdi S. Hosseini](https://scholar.google.com/citations?user=SO-FFrgAAAAJ), dans le cadre de ma maîtrise M.Sc. en informatique à l'Université Concordia.
 
-> 🚀 Thesis entitled *"Enhanced Colorectal Polyps Screening with Optimized Barlow Twins"* — validated on July 24th, 2024 with **outstanding** mention from the thesis committee.
+> 🚀 Thèse intitulée *«Enhanced Colorectal Polyps Screening with Optimized Barlow Twins»* — validée le 24 juillet 2024 avec la mention **«outstanding»** du jury.
 
-> 🚀 Funded by the **Fonds de Recherche du Québec en Nature & Technologies**.
+> 🚀 Financée par le **Fonds de Recherche du Québec en Nature & Technologies**.
 
-## The Data
+## Les données
 
-Pathological images are gigapixel images (up to 100,000 × 50,000 px) of tissue slides. I worked with a dataset of **1,037 Whole Slide Images (WSIs)** of colorectal polyps (4 subtypes) and normal colon, partially annotated by a pathologist.
+Les images pathologiques sont des images gigapixel (jusqu'à 100 000 × 50 000 px) de lames de tissu. J'ai travaillé avec un jeu de données de **1 037 images entières de lames (WSI)** de polypes colorectaux (4 sous-types) et de côlon normal, partiellement annotées par un pathologiste.
 
-![Whole Slide Images overview](/assets/imgs/WSIs.png){: style="max-width: 560px; display: block; margin: 1.5rem auto; border-radius: 8px;"}
+![Aperçu des images entières de lames](/assets/imgs/WSIs.png){: style="max-width: 560px; display: block; margin: 1.5rem auto; border-radius: 8px;"}
 
-## Why It Matters
+## Enjeux
 
-- Colorectal cancer is the 2nd leading cause of cancer death among women, 4th among men — yet **100% preventable** if detected early.
-- Pathological datasets are massive (>1 TB) and expensive to annotate.
-- A growing shortage of pathologists creates bottlenecks and delays in care.
+- Le cancer colorectal est la 2e cause de mortalité par cancer chez les femmes, la 4e chez les hommes — pourtant **100 % évitable** si détecté tôt.
+- Les jeux de données pathologiques sont massifs (>1 To) et coûteux à annoter.
+- La pénurie croissante de pathologistes crée des goulots d'étranglement et des retards de prise en charge.
 
-> It is therefore crucial to develop efficient, annotation-free algorithms that can assist pathologists.
+> Il est donc crucial de développer des algorithmes efficaces, libres d'annotation, capables d'assister les pathologistes.
 
-## Proposed Method
+## Méthode proposée
 
-- Efficient and lightweight pipeline for dataset preparation (patch extraction, background and artefact removal).
-- Optimization of [Barlow Twins](https://arxiv.org/abs/2103.03230), a self-supervised learning method originally designed for natural images:
-  - Adaptation of the augmentation strategy to pathological data.
-  - Ablation study of key hyperparameters.
-- Classification accuracy **>89%** with AUC **>0.99** — clinically meaningful results.
+- Pipeline efficace et léger pour la préparation des données (extraction de patches, suppression du fond et des artefacts).
+- Optimisation de [Barlow Twins](https://arxiv.org/abs/2103.03230), une méthode d'apprentissage auto-supervisé initialement conçue pour des images naturelles :
+  - Adaptation de la stratégie d'augmentation aux données pathologiques.
+  - Étude d'ablation des hyperparamètres clés.
+- Précision de classification **>89 %** avec AUC **>0,99** — résultats cliniquement significatifs.
 
-## Visualizations
+## Visualisations
 
-Using [CLAM](https://github.com/mahmoodlab/CLAM), high-value diagnostic regions (in red) are highlighted — aligned with the pathologist's annotations:
+À l'aide de [CLAM](https://github.com/mahmoodlab/CLAM), les régions à haute valeur diagnostique (en rouge) sont mises en évidence — en accord avec les annotations du pathologiste :
 
-![CLAM visualization of high diagnosis-value regions](/assets/imgs/CLAM_WSIs.png){: style="max-width: 560px; display: block; margin: 1.5rem auto; border-radius: 8px;"}
+![Visualisation CLAM des régions à haute valeur diagnostique](/assets/imgs/CLAM_WSIs.png){: style="max-width: 560px; display: block; margin: 1.5rem auto; border-radius: 8px;"}
 
 Using [GradCAM](https://github.com/jacobgil/pytorch-grad-cam), per-patch attention maps confirm the model focuses on biologically relevant areas, validated by the pathologists:
 

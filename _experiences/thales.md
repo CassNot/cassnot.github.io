@@ -1,33 +1,33 @@
 ---
 layout: experience
-title: R&D Engineer (Internship)
+title: Ingénieure R&D (Stage)
 company: Thales DMS France
 company_url: https://www.thalesgroup.com/fr
 location: Brest, France
-start_date: April 2022
-end_date: July 2022
+start_date: Avril 2022
+end_date: Juillet 2022
 image: /assets/imgs/eeg.jpeg
 order: 4
 highlights:
-  - "Designed and built a brain-computer interface to validate the use of Error-Related Potentials (ErrP)"
-  - "Full experimental pipeline: hardware setup, signal processing, analysis, and written report"
+  - "Conception et développement d'une interface cerveau-ordinateur pour valider l'utilisation des potentiels liés aux erreurs (ErrP)"
+  - "Pipeline expérimental complet : configuration matérielle, traitement du signal, analyse et rapport écrit"
 ---
 
-This 4-month internship was conducted during my second year of engineering school, under the joint supervision of **Thales DMS France**, **IMT Atlantique**, and the **École Navale**.
+Stage de 4 mois réalisé pendant ma deuxième année d'école d'ingénieurs, sous la co-direction de **Thales DMS France**, d'**IMT Atlantique** et de l'**École Navale**.
 
-**Mission**: Explore hands-free control capabilities via electroencephalography (EEG), by detecting Error-Related Potentials (ErrP).
+**Mission** : Explorer les capacités de contrôle sans les mains par électroencéphalographie (EEG), via la détection de potentiels liés aux erreurs (ErrP).
 
-*Error potentials are the electrophysiological signatures of error processes in the brain — detectable through EEG. They reflect the human ability to recognize and adapt to mistakes.*
+*Les potentiels d'erreur sont les signatures électrophysiologiques des processus d'erreur dans le cerveau — détectables par EEG. Ils reflètent la capacité humaine à reconnaître et s'adapter à ses erreurs.*
 
-- Authored a literature review on Brain-Computer Interfaces (BCI)
-- Proposed and drafted the experimental protocol
-- Implemented the full experiment and collected data with participants
+- Rédaction d'une revue de littérature sur les interfaces cerveau-ordinateur (BCI)
+- Proposition et rédaction du protocole expérimental
+- Implémentation complète de l'expérience et collecte de données avec des participants
 
-## *Speed Images* — ErrP Detection Game
+## *Speed Images* — Jeu de détection ErrP
 
-Players are shown two shapes every 3 seconds and must indicate whether they are identical (**Match**) or different (**Clash**). Random interface bugs (wrong feedback) are introduced to elicit both endogenous and exogenous error potentials.
+Les joueurs voient deux formes toutes les 3 secondes et doivent indiquer si elles sont identiques (**Identique**) ou différentes (**Différent**). Des bugs d'interface aléatoires (mauvais retour visuel) sont introduits pour déclencher des potentiels d'erreur endogènes et exogènes.
 
-![Match / Clash game interface](/assets/imgs/Match_Clash.png){: style="max-width: 480px; display: block; margin: 1.5rem auto; border-radius: 8px;"}
+![Interface du jeu Match / Clash](/assets/imgs/Match_Clash.png){: style="max-width: 480px; display: block; margin: 1.5rem auto; border-radius: 8px;"}
 
 - A score bar motivates the player; the system displays *"BRAVO"* or *"DOMMAGE"* after each round.
 - **Tools**: Python (PyGame, NumPy, PyAudio), OpenBCI Ganglion + sound board for EEG capture

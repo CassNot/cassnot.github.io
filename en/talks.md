@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 🎤 Conférences & Présentations
-permalink: /talks/
-lang: fr
+title: 🎤 Talks & Presentations
+permalink: /en/talks/
+lang: en
 ref: talks
 ---
 
@@ -10,14 +10,14 @@ ref: talks
 {%- assign sorted_talks = site.talks | sort: "date" | reverse -%}
 {%- for talk in sorted_talks -%}
 <div class="talk-card">
-  <p class="talk-date">{{ talk.date_label_fr | default: talk.date_label }}</p>
+  <p class="talk-date">{{ talk.date_label }}</p>
   <h3 class="talk-event">{{ talk.event }}</h3>
   {%- if talk.venue -%}
   <p class="talk-venue">{{ talk.venue }}</p>
   {%- endif -%}
-  <p class="talk-desc">{{ talk.description_fr | default: talk.description }}</p>
+  <p class="talk-desc">{{ talk.description }}</p>
   {%- if talk.contributor == false -%}
-  <p class="talk-note">Présentatrice — sans contribution au projet</p>
+  <p class="talk-note">Presenter — not a project contributor</p>
   {%- endif -%}
   {%- if talk.topics -%}
   <div class="talk-topics">

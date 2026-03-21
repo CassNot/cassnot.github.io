@@ -2,15 +2,17 @@
 layout: page
 title: 📄 Publications
 permalink: /publications/
+lang: fr
+ref: publications
 ---
 
-## Peer-Reviewed Journal Articles
+## Articles dans des revues à comité de lecture
 
 **A Novel Approach for Enhanced Classification of Histopathology Slides using an Optimized Barlow Twins**  
 *C. Notton et al.*  
 **Medical Image Analysis**  
-*Accepted February 17, 2026*  
-[View on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1361841526000733)
+*Accepté le 17 février 2026*  
+[Voir sur ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1361841526000733)
 
 ---
 
@@ -18,31 +20,31 @@ permalink: /publications/
 *Hosseini, M. S. et al.*  
 **Journal of Pathology Informatics**  
 *2024*  
-Contributing author  
-[View on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2153353923001712)
+Co-auteure  
+[Voir sur ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2153353923001712)
 
 ---
 
-## Preprints & Submitted Papers
+## Prépublications & articles soumis
 
 **Establishing Baselines for Photonic Quantum Machine Learning: Insights from an Open, Collaborative Initiative**  
 *C. Notton et al.*  
-**arXiv Preprint**  
-*October 2025*  
-[View on arXiv](https://arxiv.org/abs/2510.25839v1)
+**Prépublication arXiv**  
+*Octobre 2025*  
+[Voir sur arXiv](https://arxiv.org/abs/2510.25839v1)
 
 ---
 
 **MerLin: A Discovery Engine for Photonic and Hybrid Quantum Machine Learning**  
 *C. Notton et al.*  
-*Submitted to: 2026 IEEE World Congress on Computational Intelligence*  
-[View on arXiv](https://arxiv.org/abs/2602.11092)
+*Soumis au : 2026 IEEE World Congress on Computational Intelligence*  
+[Voir sur arXiv](https://arxiv.org/abs/2602.11092)
 
 ---
 
-## Areas of Research
+## Thèmes de recherche
 
-- **Quantum Machine Learning**: Photonic and hybrid classical-quantum approaches
-- **Representation Learning**: Self-supervised learning methods
-- **Computational Pathology**: Deep learning for histopathology image analysis
-- **Brain-Computer Interfaces**: Signal processing and human-computer interaction
+- **Machine learning quantique** : approches photoniques et hybrides classique-quantique
+- **Apprentissage de représentations** : méthodes auto-supervisées
+- **Pathologie computationnelle** : deep learning pour l'analyse d'images histopathologiques
+- **Interfaces cerveau-ordinateur** : traitement du signal et interaction homme-machine

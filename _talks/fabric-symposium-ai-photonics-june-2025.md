@@ -1,6 +1,7 @@
 ---
 date: 2025-06-06
 date_label: "June 6, 2025"
+date_label_fr: "6 juin 2025"
 event: "Symposium: Bridging Artificial Intelligence and Quantum Computing with Photonics"
 venue: "FABRIC Innovation"
 description: >
@@ -10,6 +11,14 @@ description: >
   photonic quantum machine learning and MerLin, the open-source framework developed at Quandela,
   whose associated paper was later accepted at IJCNN 2026 (Special Session on Quantum Machine
   Learning Algorithms and Applications).
+description_fr: >
+  Conférence d'une heure au symposium de FABRIC Innovation sur l'IA et l'informatique quantique
+  photonique. Couverture de deux axes : (1) l'IA pour les technologies quantiques — présentation
+  de méthodes apprises à l'état de l'art pour la conception de circuits photoniques ;
+  (2) les technologies quantiques pour l'IA — introduction au machine learning quantique
+  photonique et à MerLin, le framework open-source développé chez Quandela, dont l'article
+  associé a été accepté à l'IJCNN 2026 (Session spéciale sur les algorithmes de machine
+  learning quantique et leurs applications).
 role: keynote
 links:
   - label: "Symposium page"

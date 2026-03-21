@@ -1,13 +1,13 @@
 ---
 layout: page
-title: 💼 Expériences professionnelles
-permalink: /experience/
-lang: fr
+title: 💼 Professional Experience
+permalink: /en/experience/
+lang: en
 ref: experience
 ---
 
 <div class="exp-gallery">
-{%- assign sorted_experiences = site.experiences | sort: "order" -%}
+{%- assign sorted_experiences = site.experiences_en | sort: "order" -%}
 {%- for exp in sorted_experiences -%}
 <div class="exp-card">
   <p class="exp-card-dates">{{ exp.start_date }} – {{ exp.end_date }}</p>
@@ -18,7 +18,7 @@ ref: experience
     <li>{{ h }}</li>
     {%- endfor -%}
   </ul>
-  <span class="exp-card-more">En savoir plus &rarr;</span>
+  <span class="exp-card-more">Learn more &rarr;</span>
 </div>
 {%- endfor -%}
 </div>

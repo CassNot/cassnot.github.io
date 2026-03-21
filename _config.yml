@@ -27,8 +27,26 @@ collections:
   experiences:
     output: true
     permalink: /experience/:name/
+  experiences_en:
+    output: true
+    permalink: /en/experience/:name/
   talks:
     output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: fr
+  - scope:
+      path: "en"
+    values:
+      lang: en
+  - scope:
+      path: ""
+      type: "experiences_en"
+    values:
+      lang: en
 
 minima:
   hide_site_feed_link: true
@@ -38,6 +56,12 @@ minima:
     - publications.md
     - talks.md
     - about.md
+  nav_pages_en:
+    - en/experience.md
+    - en/education.md
+    - en/publications.md
+    - en/talks.md
+    - en/about.md
 
 # Uncomment the following setting if you wish to disable deprecation warnings
 #   from newer versions of sass converter. Adapt as required.

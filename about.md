@@ -1,19 +1,21 @@
 ---
 layout: page
-title: 👤 About
+title: 👤 À propos
 permalink: /about/
+lang: fr
+ref: about
 ---
 
-Hi, I'm **Cassandre Notton** — data scientist, quantum ML researcher, and occasional trumpet player based in Montréal.
+Bonjour, je suis **Cassandre Notton** — data scientist, chercheuse en ML quantique et trompettiste à mes heures perdues, basée à Montréal.
 
-I work at [Quandela](https://www.quandela.com) where I lead the development of [MerLin](https://github.com/merlinquantum/merlin), an open-source framework for photonic quantum machine learning. My research sits at the intersection of machine learning, quantum computing, and medical imaging.
+Je travaille chez [Quandela](https://www.quandela.com) où je pilote le développement de [MerLin](https://github.com/merlinquantum/merlin), un framework open-source pour le machine learning quantique photonique. Mes recherches se situent à l'intersection du machine learning, de l'informatique quantique et de l'imagerie médicale.
 
-Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/cassandre-notton-69ba6a131/).
+N'hésitez pas à me contacter sur [LinkedIn](https://www.linkedin.com/in/cassandre-notton-69ba6a131/).
 
 ---
 
-## This site
+## Ce site
 
-Built with [Jekyll](https://jekyllrb.com) and the [Minima](https://github.com/jekyll/minima) theme.
+Construit avec [Jekyll](https://jekyllrb.com) et le thème [Minima](https://github.com/jekyll/minima).
 
-The layout, sections, and styling were vibe-coded with the help of **Claude Sonnet 4.6** ✨ !
+La mise en page, les sections et le style ont été vibe-codés avec l'aide de **Claude Sonnet 4.6** ✨ !

@@ -1,39 +1,41 @@
 ---
 layout: page
-title: 🎓 Education & Research
+title: 🎓 Formation & Recherche
 permalink: /education/
+lang: fr
+ref: education
 ---
 
-## Master of Computer Science (MCompSc)
-**[Concordia University](https://www.concordia.ca/academics/graduate/computer-science-mcompsc.html)** | Montréal, QC  
+## Master en Informatique (MCompSc)
+**[Université Concordia](https://www.concordia.ca/academics/graduate/computer-science-mcompsc.html)** | Montréal, QC  
 *2022 - 2024*
 
-![Colon histopathology slide](/assets/imgs/colon.png){: style="max-width: 320px; float: right; margin: 0 0 1em 2em; border-radius: 6px;"}
+![Lame histopathologique de côlon](/assets/imgs/colon.png){: style="max-width: 320px; float: right; margin: 0 0 1em 2em; border-radius: 6px;"}
 
-Research-focused master's degree with "outstanding" distinction  
-GPA: 4.21/4.3
+Master axé recherche obtenu avec la mention **«outstanding»**  
+GPA : 4,21/4,3
 
-**Key courses:**
-- Representation Learning at [MILA](https://mila.quebec/fr)
-- Advanced Machine Learning
+**Cours principaux :**
+- Apprentissage de représentations au [MILA](https://mila.quebec/fr)
+- Machine Learning avancé
 - Deep Learning
-- Artificial Intelligence
+- Intelligence artificielle
 
 ---
 
-## MSc in Engineering
+## Diplôme d'ingénieure (MSc)
 **[IMT Atlantique](https://www.imt-atlantique.fr/fr)** | France  
 *2020 - 2022*
 
-![IMT Boat](/assets/imgs/imtatlantique.jpeg){: style="max-width: 320px; float: right; margin: 0 0 1em 2em; border-radius: 6px;"}
+![IMT Bateau](/assets/imgs/imtatlantique.jpeg){: style="max-width: 320px; float: right; margin: 0 0 1em 2em; border-radius: 6px;"}
 
-Grande École Généraliste (General Engineering School)  
-GPA: 3.91/4.0
+Grande École Généraliste  
+GPA : 3,91/4,0
 
-**Specialization areas:**
-- Data Science
+**Domaines de spécialisation :**
+- Science des données
 - Deep Learning
-- Object-Oriented Programming
+- Programmation orientée objet
 - Management
 
 ---
@@ -42,23 +44,23 @@ GPA: 3.91/4.0
 **[Lycée Hoche](https://lyc-hoche-versailles.ac-versailles.fr/)** | Versailles, France  
 *2020 - 2022*
 
-Intensive two-year preparatory program for French engineering schools
+Programme préparatoire intensif de deux ans pour les grandes écoles d'ingénieurs
 
-Grade: A
+Mention : A
 
-**Subjects:**
-- Wave Physics
-- Quantum Physics
-- Thermodynamics
-- Mathematics
-- Chemistry
+**Matières :**
+- Physique des ondes
+- Physique quantique
+- Thermodynamique
+- Mathématiques
+- Chimie
 
 ---
 
-## Funding & Awards
+## Financements & Distinctions
 
-**[Fonds de Recherche du Québec (FRQNT)](https://frq.gouv.qc.ca/)** Research Funding  
-Funded research project: $20,000 CAD
+**[Fonds de Recherche du Québec (FRQNT)](https://frq.gouv.qc.ca/)** — Financement de recherche  
+Projet financé : 20 000 $ CAD
 
-**Concordia University Merit Scholarship**  
-Merit-based scholarship: $5,000 CAD
+**Bourse de mérite — Université Concordia**  
+Bourse au mérite : 5 000 $ CAD

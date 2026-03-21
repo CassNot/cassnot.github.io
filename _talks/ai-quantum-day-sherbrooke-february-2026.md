@@ -1,6 +1,7 @@
 ---
 date: 2026-02-01
 date_label: "February 2026"
+date_label_fr: "Février 2026"
 event: "A Day about AI and Quantum"
 venue: "Sherbrooke, QC"
 description: >
@@ -8,6 +9,12 @@ description: >
   Covered two internal projects: photonic integrated circuit (PIC) characterization
   and quantum dot position assessment. Also presented work from other Quandela teams:
   learned methods for photonic circuit design, and quantum dot spectral analysis.
+description_fr: >
+  Présentation sur l'utilisation de l'IA dans la pile quantique chez Quandela.
+  Couverture de deux projets internes : la caractérisation de circuits intégrés photoniques (PIC)
+  et l'évaluation des positions de points quantiques. Présentation également de travaux
+  d'autres équipes Quandela : méthodes apprises pour la conception de circuits photoniques
+  et analyse spectrale de points quantiques.
 role: presenter
 links:
   - label: "Event page"
