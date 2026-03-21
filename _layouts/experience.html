@@ -1,0 +1,33 @@
+---
+layout: base
+---
+
+<article class="exp-detail">
+
+  <a class="exp-back-btn" href="/experience/">&larr; Back to Experience</a>
+
+  <div class="exp-detail-header">
+    {%- if page.image -%}
+    <img src="{{ page.image }}" alt="{{ page.company }}" class="exp-detail-img">
+    {%- endif -%}
+    <div class="exp-detail-meta">
+      <h1>{{ page.title }}</h1>
+      <p class="exp-company">
+        {%- if page.company_url -%}
+          <a href="{{ page.company_url }}" target="_blank" rel="noopener">{{ page.company }}</a>
+        {%- else -%}
+          {{ page.company }}
+        {%- endif -%}
+        &nbsp;&mdash;&nbsp;{{ page.location }}
+      </p>
+      <p class="exp-dates">{{ page.start_date }} &ndash; {{ page.end_date }}</p>
+    </div>
+  </div>
+
+  <div class="exp-detail-content">
+    {{ content }}
+  </div>
+
+  <a class="exp-back-btn exp-back-btn--bottom" href="/experience/">&larr; Back to Experience</a>
+
+</article>
