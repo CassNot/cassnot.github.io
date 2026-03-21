@@ -27,6 +27,8 @@ collections:
   experiences:
     output: true
     permalink: /experience/:name/
+  talks:
+    output: false
 
 minima:
   hide_site_feed_link: true

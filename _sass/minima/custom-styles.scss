@@ -83,6 +83,86 @@
   }
 }
 
+// ── Talks list ──────────────────────────────────────────────────────────────
+
+.talk-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-top: 1.5rem;
+}
+
+.talk-card {
+  padding: 1.2rem 1.4rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  &:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.10);
+    transform: translateY(-3px);
+  }
+}
+
+.talk-date {
+  font-size: 0.8rem;
+  opacity: 0.55;
+  margin: 0 0 0.2rem;
+}
+
+.talk-event {
+  font-size: 1.05rem;
+  font-weight: bold;
+  margin: 0 0 0.2rem;
+}
+
+.talk-venue {
+  font-size: 0.88rem;
+  opacity: 0.7;
+  margin: 0 0 0.5rem;
+}
+
+.talk-desc {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin: 0 0 0.5rem;
+}
+
+.talk-note {
+  font-size: 0.8rem;
+  font-style: italic;
+  opacity: 0.55;
+  margin: 0 0 0.6rem;
+}
+
+.talk-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.talk-topic-badge {
+  font-size: 0.75rem;
+  padding: 0.15em 0.6em;
+  border-radius: 20px;
+  border: 1px solid currentColor;
+  opacity: 0.65;
+}
+
+.talk-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  font-size: 0.85rem;
+
+  a {
+    text-decoration: underline;
+    opacity: 0.8;
+    &:hover { opacity: 1; }
+  }
+}
+
 // ── Experience gallery ──────────────────────────────────────────────────────
 
 .exp-gallery {
@@ -214,6 +294,53 @@
   opacity: 0.7;
 
   &:hover { opacity: 1; }
+}
+
+.exp-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  margin-bottom: 1.8rem;
+  padding: 0.35em 0.9em;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid currentColor;
+  border-radius: 20px;
+  opacity: 0.65;
+  text-decoration: none;
+  transition: opacity 0.15s, transform 0.15s;
+
+  &:hover {
+    opacity: 1;
+    transform: translateX(-2px);
+  }
+
+  &--bottom {
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+  }
+}
+
+.exp-detail-content {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      position: relative;
+      padding-left: 1.2em;
+      margin-bottom: 0.6rem;
+      line-height: 1.6;
+
+      &::before {
+        content: "–";
+        position: absolute;
+        left: 0;
+        opacity: 0.5;
+      }
+    }
+  }
 }
 
 .profile-header {

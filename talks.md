@@ -4,26 +4,33 @@ title: 🎤 Talks & Presentations
 permalink: /talks/
 ---
 
-## Upcoming Talks
-
-*Information coming soon*
-
----
-
-## Past Presentations
-
-*No past talks listed yet. Check back for updates on presentations, seminars, and conference appearances.*
-
----
-
-## Speaking Topics
-
-I'm available for presentations and discussions on:
-
-- **Quantum Machine Learning** - Photonic approaches and practical applications
-- **Hybrid Classical-Quantum Models** - Architecture design and implementation
-- **Open-Source Machine Learning Frameworks** - Development best practices
-- **Data Science in Industry** - From research to production
-- **Computational Pathology** - Deep learning for medical imaging
-
-If you're interested in inviting me to speak at your event or organization, please [get in touch](mailto:cassandre@notton.fr).
+<div class="talk-list">
+{%- assign sorted_talks = site.talks | sort: "date" | reverse -%}
+{%- for talk in sorted_talks -%}
+<div class="talk-card">
+  <p class="talk-date">{{ talk.date_label }}</p>
+  <h3 class="talk-event">{{ talk.event }}</h3>
+  {%- if talk.venue -%}
+  <p class="talk-venue">{{ talk.venue }}</p>
+  {%- endif -%}
+  <p class="talk-desc">{{ talk.description }}</p>
+  {%- if talk.contributor == false -%}
+  <p class="talk-note">Presenter — not a project contributor</p>
+  {%- endif -%}
+  {%- if talk.topics -%}
+  <div class="talk-topics">
+    {%- for topic in talk.topics -%}
+    <span class="talk-topic-badge">{{ topic }}</span>
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
+  {%- if talk.links -%}
+  <div class="talk-links">
+    {%- for link in talk.links -%}
+    <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
+</div>
+{%- endfor -%}
+</div>
