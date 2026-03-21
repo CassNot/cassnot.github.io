@@ -8,7 +8,7 @@ Hi, I'm **Cassandre Notton** — data scientist, quantum ML researcher, and occa
 
 I work at [Quandela](https://www.quandela.com) where I lead the development of [MerLin](https://github.com/merlinquantum/merlin), an open-source framework for photonic quantum machine learning. My research sits at the intersection of machine learning, quantum computing, and medical imaging.
 
-Feel free to reach out at [cassandre@notton.fr](mailto:cassandre@notton.fr) or connect on [LinkedIn](https://www.linkedin.com/in/cassandre-notton-69ba6a131/).
+Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/cassandre-notton-69ba6a131/).
 
 ---
 
